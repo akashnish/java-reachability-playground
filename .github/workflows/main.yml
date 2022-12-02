@@ -13,7 +13,7 @@ jobs:
         uses: snyk/actions@0.3.0
         with:
     # Which Snyk command to run, defaults to test
-         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          command: auth 86a238f2-8147-4485-95de-184dec2bb085
     # Additional arguments to pass to Snyk
         #args: # optional
     # Output a snyk.json file with results if running the test command
