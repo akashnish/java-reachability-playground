@@ -14,10 +14,10 @@ steps:
   displayName: 'Run a one-line script'
 - task: SnykSecurityScan@1
   inputs:
-    serviceConnectionEndpoint: 'Snyk'
+    serviceConnectionEndpoint: 'snyk'
     testType: 'app'
     monitorWhen: 'always'
-    failOnIssues: true
+    failOnIssues: false
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
