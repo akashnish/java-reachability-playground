@@ -26,6 +26,6 @@ jobs:
       uses: PortSwigger/dastardly-github-action@v1.0.0
       with:
     # Target URL
-       target: 'https://ginandjuice.shop'
+       target: 'https://demo.testfire.net/'
     # The filename used for the scan report. This filepath relates to the dastardly container, and will exist in the github workspace (/github/workspace)
        output-filename: dastardly-report.xml
